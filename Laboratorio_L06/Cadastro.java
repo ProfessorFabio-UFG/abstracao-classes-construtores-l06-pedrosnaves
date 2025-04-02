@@ -61,12 +61,12 @@ public class Cadastro {
         System.out.println(produto3);
         System.out.println(produto4);
 
-        produto1.inserir("Quebra-cabeças", 25, "Jogo", 59.90);
+        produto1.inserir("quebra cabecas", 25, "jogo", 59.90);
 
-        produto1.vender(5);
-        produto2.vender(6);
-        produto3.vender(7);
-        produto4.vender(8);
+        System.out.println("Valor da venda 1: R$ " + produto1.vender(5));
+        System.out.println("Valor da venda 2: R$ " + produto2.vender(6));
+        System.out.println("Valor da venda 3: R$ " + produto3.vender(7));
+        System.out.println("Valor da venda 4: R$ " + produto4.vender(8));
 
         produto1.comprar(10);
         produto2.comprar(20);
@@ -77,6 +77,10 @@ public class Cadastro {
         produto2.comprar(20, 259.99);
         produto3.comprar(30, 109.99);
         produto4.comprar(40, 199.99);
+
+        System.out.println(produto1.igual(produto2));
+        System.out.println(produto1.igual(produto3));
+        System.out.println(produto1.igual(produto4));
 
         System.out.println("===== PRODUTOS ATUALIZADOS =====");
 
