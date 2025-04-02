@@ -11,9 +11,9 @@ public class Produto {
 
     public Produto(int codigo){
         this.codigo = codigo;
-        this.nome = "Batalha naval";
+        this.nome = "batalha naval";
         this.quantidade = 10;
-        this.tipo = "Jogo";
+        this.tipo = "jogo";
         this.preco = 99.90;
     }
 
@@ -21,7 +21,7 @@ public class Produto {
         this.codigo = codigo;
         this.nome = nome;
         this.quantidade = 10;
-        this.tipo = "Jogo";
+        this.tipo = "jogo";
         this.preco = 99.90;
     }
 
@@ -29,7 +29,7 @@ public class Produto {
         this.codigo = codigo;
         this.nome = nome;
         this.quantidade = quantidade;
-        this.tipo = "Jogo";
+        this.tipo = "jogo";
         this.preco = 99.90;
     }
 
